@@ -1,2 +1,8 @@
-# nginx-quic
-Nginx + http/3 + quic with docker-compose
+Hello Nginx
+---
+
+Nginx 1.19.6 with
+- http/3 quic
+- headers-more-nginx-module
+- brotli
+- qzip
