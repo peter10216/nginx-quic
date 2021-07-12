@@ -10,7 +10,7 @@
 
 Based on Ubuntu 20.04 with Nginx `1.19.6`
 
-Main function is in below: 
+Main function in below: 
 
 - http/3 quic , 0-RTT , TLSv1.3
 - headers-more-nginx-module
