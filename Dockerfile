@@ -23,7 +23,6 @@ RUN curl -O https://nginx.org/download/nginx-$NGINX_VERSION.tar.gz && \
     --prefix=$NGINX_PATH \
     --sbin-path=/usr/sbin/nginx \
     --modules-path=/usr/lib/nginx/modules \
-    --add-module=/opt/headers-more-nginx-module \
     --conf-path=$NGINX_PATH/nginx.conf \
     --error-log-path=/var/log/nginx/error.log \
     --http-log-path=/var/log/nginx/access.log \
@@ -61,6 +60,7 @@ RUN curl -O https://nginx.org/download/nginx-$NGINX_VERSION.tar.gz && \
     --with-stream_ssl_module \
     --with-stream_ssl_preread_module \
     --add-module=/opt/ngx_brotli \
+    --add-module=/opt/headers-more-nginx-module \
     --with-http_v3_module 	\
     --with-openssl=/opt/quiche/deps/boringssl \
     --build="quiche-$(git --git-dir=../quiche/.git rev-parse --short HEAD)" \
