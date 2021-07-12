@@ -6,7 +6,7 @@
 
 [Docker Hub](https://hub.docker.com/r/richnet/nginx)
 
-[peter10216/nginx-quic](https://github.com/peter10216/nginx-quic)
+[Github](https://github.com/peter10216/nginx-quic)
 
 Based on Ubuntu 20.04 with Nginx `1.19.6`
 
